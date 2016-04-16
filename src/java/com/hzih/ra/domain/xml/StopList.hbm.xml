@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class table="stop_list" name="com.hzih.ra.domain.StopList">
+        <id access="field" name="processId" type="java.lang.String" length="50" column="processId">
+        </id>
+        <property name="processName" length="50" column="processName" access="field" type="string"/>
+    </class>
+</hibernate-mapping>

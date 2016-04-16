@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ra:appserver exploded">
+    <output-path>E:/fartec/ichange/ra/tomcat/webapps/ROOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ra/web/appserver" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ra" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ra" />
+          <element id="library" level="project" name="syslog4j-0.9.46" />
+          <element id="library" level="project" name="jdom" />
+          <element id="library" level="project" name="ukey" />
+          <element id="library" level="project" name="mina-core" />
+          <element id="file-copy" path="$PROJECT_DIR$/shared/common/lib/common.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/shared/common/lib/xyzbvc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/shared/taskdef/lib/taskdef.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/shared/ukey/lib/ukey.jar" />
+          <element id="library" level="project" name="poi-3.2-FINAL-20081019" />
+          <element id="library" level="project" name="jndi" />
+          <element id="library" level="project" name="json-lib-2.4-jdk15" />
+          <element id="library" level="project" name="junit-4.10" />
+          <element id="library" level="project" name="ehcache-core-2.6.2" />
+          <element id="library" level="project" name="jxl" />
+          <element id="library" level="project" name="ganymed-ssh2-build210" />
+          <element id="library" level="project" name="snmp4j-2.0.1" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/spring.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>
